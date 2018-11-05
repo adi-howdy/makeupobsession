@@ -40,10 +40,31 @@ body {
  opacity: 0.5;
   }
 
+  .dropdown-toggle {
+    /*background-color: #FFB6C1;*/
+    background-color: black;
+    opacity: 0.5;
+     }
+
   .navbar-item {
     /*background-color: #FFB6C1;*/
     background: transparent;
+    
   
+  }
+
+  .dropdown-menu{
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .drop-item{
+    background-color: black;
+    opacity: 0.5;
+    font-size: 1em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+    color: black;
   }
 
   footer {
@@ -52,22 +73,42 @@ body {
     
   }
 
+
+
   .page-section-title{
     font-size: 3em;
     font-family: var(--font-family-sans-serif);
     font-weight: 200;
-    color: black;
+    color: #FFF8DC;
   }
 
+  .modal-section-title{
+    font-size: 1.8em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+    color: #FFF8DC;
+    text-align: center;
+    background-color: #360518;
+  }
+
+  .modal-section-header{
+    background-color: #360518;
+  }
+
+  .modal .close{
+    text-align: right;
+  }
+
+
   .footer-title{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: var(--font-family-sans-serif);
     font-weight: 200;
     color: #FFF8DC;
   }
 
   .location {
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: var(--font-family-sans-serif);
     font-weight: 200;
     color: #FFF8DC;
@@ -76,12 +117,73 @@ body {
     font-size: 1.5em;
     font-family: var(--font-family-sans-serif);
     font-weight: 200;
-    color: black;
+    color: #FFF8DC;
+  }
+
+  .modal-section-text{
+    font-size: 1.2em;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 200;
+    color: #FFF8DC;
+    text-align: left;
+    background-color: #630620;
   }
 
   .layout-hero {
     padding-top: 15px;
-    background-color: #F8F8FF;
-
+    background-color: #630620; 
     
   }
+
+ .layout-media .layout-image{
+   max-width:300px;
+ }
+  
+ .layout-media .layout-title {
+   color: var(--purple);
+   font-family: var(--font-family-sans-serif);
+   font-weight: 200;
+   font-size:1.6em;
+ }
+
+.media img {
+   border-radius: 50%;
+ }
+
+ #main1{
+   background-color: #360518;
+   color: #F8F8FF;
+   text-align: center;
+   width:80%;
+   margin: auto;
+   overflow: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border-radius: 10px;
+ }
+
+ #sub-main {
+  background-color: #630620;
+  color: #F8F8FF;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+   margin-bottom: 50px;
+ }
+
+ #container1{
+  background-color: #360518;
+  overflow: auto;
+ }
+
+ .right {
+   float: right;
+   max-width:150px;
+   border-radius: 50%;
+ }
+
+ p {
+   line-height: 1.75;
+ }
+
