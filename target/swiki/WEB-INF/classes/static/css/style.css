@@ -40,6 +40,11 @@ body {
  opacity: 0.5;
   }
 
+  .navbar .dropdown {
+    background-color: black;
+
+  }
+
   .dropdown-toggle {
     /*background-color: #FFB6C1;*/
     background-color: black;
@@ -53,10 +58,8 @@ body {
   
   }
 
-  .dropdown-menu{
-    background-color: black;
-    opacity: 0.5;
-  }
+
+ 
 
   .drop-item{
     background-color: black;
@@ -70,6 +73,7 @@ body {
   footer {
     /*background-color: #404040;*/
     background-color: black;
+    overflow: auto;
     
   }
 
@@ -166,10 +170,11 @@ body {
   background-color: #630620;
   color: #F8F8FF;
   text-align: center;
-  padding: 30px;
+  padding: 15px;
   border-radius: 10px;
   margin-top: 50px;
    margin-bottom: 50px;
+   overflow: auto;
  }
 
  #container1{
@@ -185,5 +190,9 @@ body {
 
  p {
    line-height: 1.75;
+ }
+
+ .close {
+   text-align: right;
  }
 
