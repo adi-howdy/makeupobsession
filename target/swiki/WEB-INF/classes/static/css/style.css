@@ -166,6 +166,10 @@ body {
    border-radius: 10px;
  }
 
+ #gallery {
+  background-color: #630620;
+ }
+
  #sub-main {
   background-color: #630620;
   color: #F8F8FF;
@@ -196,3 +200,77 @@ body {
    text-align: right;
  }
 
+ #galley {
+   margin-top:2em;
+ }
+
+#gallery ul, #galley li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*from https://www.lynda.com/Developer-Mobile-Web-tutorials/Controlling-gallery-styling/114899/124377-4.html?srchtrk=index%3a2%0alinktypeid%3a2%0aq%3aimage+gallery%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2*/
+
+/*desktop*/
+@media only screen and (min-width:769px) {
+.photos {
+	-moz-column-count: 2;
+	-moz-column-gap: 1em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1em;
+	column-count: 6;
+	column-gap: 1em;
+	margin-bottom: 2em;
+}
+
+.photos img {
+	max-width: 100%;
+  margin-bottom: .5em;
+  border: 2px solid peachpuff;
+}
+.photos li {
+	position: relative;
+	float: none;
+}
+}
+
+/*tablets*/
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+  .photos {
+    -moz-column-count: 2;
+    -moz-column-gap: .5em;
+    -webkit-column-count: 2;
+    -webkit-column-gap: .5em;
+    column-count: 5;
+    column-gap: .5em;
+    margin-bottom: 2em;
+  }
+  
+  .photos img {
+    max-width: 100%;
+    margin-bottom: .5em;
+    border: 2px solid peachpuff;
+  }
+  .photos li {
+    position: relative;
+    float: none;
+  }
+}
+
+/*mobile*/
+@media only screen and (max-width:480px) {
+
+  .photos img {
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom:.8em;
+    border: 2px solid peachpuff;
+  }
+  .photos li {
+    position: relative;
+    float: none;
+  }
+}

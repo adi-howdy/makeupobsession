@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/photoswipe.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Source+Serif+Pro" rel="stylesheet">
@@ -20,53 +21,160 @@
       <a class="navbar-brand" href="index.html"><i class="fas fa-cube"></i>The Makeup Obsession</a>
      <section class="collapse navbar-collapse" id="myTogglerNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="service.html" class="nav-link">Service</a></li>
+          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <!-- <li class="nav-item"><a href="service.html" class="nav-link">Service</a></li> -->
+          <li class="dropdown">
+          <a href=# class="dropdown-toggle text-light service" data-toggle="dropdown">Service <span class="caret"></span></a>
+         
+          <ul class="dropdown-menu sub-menu">
+            <li class="text-light"><a href="bride.html">Bride & Party Makeup </a><li>
+              <li class="text-light"><a href="model.html">Models Makeup </a></li>
+              <li class="text-light"><a href="professional.html">Professional Makeup</a></li>
+              <li class="text-light"><a href="self.html">Self Makeup</a></li>
+            </ul>
+          
+          </li>
           <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
-          <li class="nav-item active"><a href="./gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
         </ul>
     </section>
     </div>
   </nav>
   </header>
-  
-  
-  <footer>
-      <div class="container">
-        
-          <div class="row">
-          <div class="col-md-12 text-center">
-              <h2 class="footer-title">Contact</h2>
-              <div class="location">
-	                <span> <i class="fas fa-map-marker-alt"></i></span><span class="text">: Nadipur Ward no. 3, Pokhara</span><br>
-	                <a href="#"><i class="fas fa-phone text-light"> </i><span class="text location">: +977 9849865855</span></a><br>
-                  <a href="#"><i class="fas fa-envelope text-light"> </i><span class="text location">: swiki@gmail.com</span></a>  
+
+
+  <div id= "container1">
+        <div id="main1">
+            <header>
+                    <h2>BRIDE PHOTOS</h2>
+              </header>     
+                <div id= "sub-main">
+                        <article id= "gallery">
+                                <div class="photos">
+                                    
+                                    <ul id="photoGallery">
+                                        <li><a href="images/bride13m.jpg"><img src="images/bride13s.jpg"  border="5" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride10m.jpg"><img src="images/bride10s.jpg" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride14m.jpg"><img src="images/bride14s.jpg" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride2m.jpg"><img src="images/bride2s.jpg" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride3m.jpg"><img src="images/bride3s.jpg" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride4m.jpg"><img src="images/bride4s.jpg" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride5m.jpg"><img src="images/bride5s.jpg" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride6m.jpg"><img src="images/bride6s.jpg" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride7m.jpg"><img src="images/bride7s.jpg" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride15m.jpg"><img src="images/bride15s.jpg" alt="Bride Photo"></a></li>
+                                        <li><a href="images/bride11m.jpg"><img src="images/bride11s.jpg" alt="Bride Photo"></a></li>
+
+                                    </ul>
+                                    </div>
+                                    </article>
                   </div>
           </div>
-        </div>
-        <div class="row">  
-            <div class = "col-md-12 text-center"> 
-                  <span class = "btn btn-social-icon btn-facebook text-light align-items-center"><a href="#"> <i class="fa fa-facebook fa-lg"></i></a></span>
-                  <span class = "btn btn-social-icon btn-twitter text-light align-items-center"><a href="#"><i class="fa fa-twitter fa-lg"></i></a></span>      
-            </div>
-            </div>
-        <div class="row">
-          <div class="col-md-12 text-center">       
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+
+          <div id="main1">
+                <header>
+                        <h2>PARTY PHOTOS</h2>
+                  </header>     
+                    <div id= "sub-main">
+                            <article id= "gallery">
+                                    <div class="photos">
+                                        
+                                        <ul id="photoGallery">
+                                            <li><a href="images/party1m.jpg"><img src="images/party1s.jpg" alt="Party Photo"></a></li>
+                                            <li><a href="images/party2m.jpg"><img src="images/party2s.jpg" alt="Party Photo"></a></li>
+                                            <li><a href="images/party4m.jpg"><img src="images/party4s.jpg" alt="Party Photo"></a></li>
+                                            <li><a href="images/party5m.jpg"><img src="images/party5s.jpg" alt="Party Photo"></a></li>
+                                            <li><a href="images/party6m.jpg"><img src="images/party6s.jpg" alt="Party Photo"></a></li>
+                                        </ul>
+                                        </div>
+                                        </article>
+                      </div>
+              </div>
+
+              <div id="main1">
+                    <header>
+                            <h2>MODEL PHOTOS</h2>
+                      </header>     
+                        <div id= "sub-main">
+                                <article id= "gallery">
+                                        <div class="photos">
+                                            
+                                            <ul id="photoGallery">
+                                                <li><a href="images/model3m.jpg"><img src="images/model3s.jpg" alt="Model Photo"></a></li>
+                                                <li><a href="images/model6m.jpg"><img src="images/model6s.jpg" alt="Model Photo"></a></li>
+                                                <li><a href="images/model5m.jpg"><img src="images/model5s.jpg" alt="Model Photo"></a></li>
+                                            </ul>
+                                            </div>
+                                            </article>
+                          </div>
+                  </div>
+
+                  <div id="main1">
+                        <header>
+                                <h2>CLASS PHOTOS</h2>
+                          </header>     
+                            <div id= "sub-main">
+                                    <article id= "gallery">
+                                            <div class="photos">
+                                                
+                                                <ul id="photoGallery">
+                                                    <li><a href="images/class2m.jpg"><img src="images/class2m.jpg" alt="Class Photo"></a></li>
+                                                    <li><a href="images/class3m.jpg"><img src="images/class3s.jpg" alt="Class Photo"></a></li>
+                                                    <li><a href="images/class4m.jpg"><img src="images/class4s.jpg" alt="Class Photo"></a></li>
+                                                    <li><a href="images/class5m.jpg"><img src="images/class5s.jpg" alt="Class Photo"></a></li>
+                                                    <li><a href="images/class6m.jpg"><img src="images/class6s.jpg" alt="Class Photo"></a></li>
+                                                    <li><a href="images/class7m.jpg"><img src="images/class7s.jpg" alt="Class Photo"></a></li>
+                                                    <li><a href="images/class1m.jpg"><img src="images/class1s.jpg" alt="Class Photo"></a></li>
+                                                </ul>
+                                                </div>
+                                                </article>
+                              </div>
+                      </div>
+
           </div>
+
+  
+  <footer>
+    <div class="container">    
+        <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="footer-title">Contact</h2>
+            <div class="location">
+                  <span> <i class="fas fa-map-marker-alt"></i></span><span class="text location">: Nadipur Ward no. 3, Pokhara</span><br>
+                  <a href="#"><i class="fas fa-phone text-light"> </i><span class="text location">: +977 9849865855</span></a><br>
+                <a href="#"><i class="fas fa-envelope text-light"> </i><span class="text location">: swikritee.shrestha@gmail.com</span></a>  
+                </div>
         </div>
       </div>
-    </footer>
-    
+      <div class="row">  
+          <div class = "col-md-12 text-center"> 
+                <span class = "btn btn-social-icon btn-facebook text-light align-items-center"><a href="#"> <i class="fa fa-facebook fa-lg"></i></a></span>
+                <span class = "btn btn-social-icon btn-twitter text-light align-items-center"><a href="#"><i class="fa fa-twitter fa-lg"></i></a></span>      
+          </div>
+          </div>
+      <div class="row">
+        <div class="col-md-12 text-center">       
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+        </div>
+      </div>
+    </div>
+  </footer>
   
 
-  <!-- loader -->
+
+<!-- loader -->
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/klass.min.js"></script>
+<script type="text/javascript" src="js/code.photoswipe.jquery-3.0.5.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        var myPhotoswipe= $('#photoGallery a').photoSwipe({});
+    });
+    </script> 
+</body>
 </html>
