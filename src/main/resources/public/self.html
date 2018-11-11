@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <title>Makeup Obsession</title>
     <meta charset="utf-8">
@@ -23,7 +23,7 @@
           <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
           <!-- <li class="nav-item"><a href="service.html" class="nav-link">Service</a></li> -->
           <li class="dropdown">
-          <a href=# class="dropdown-toggle text-light" data-toggle="dropdown">Service <span class="caret"></span></a>
+          <a href=# class="dropdown-toggle text-light service" data-toggle="dropdown">Service <span class="caret"></span></a>
          
           <ul class="dropdown-menu sub-menu">
             <li class="text-light"><a href="bride.html">Bride & Party Makeup </a><li>
@@ -34,15 +34,64 @@
           
           </li>
           <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
     </section>
     </div>
   </nav>
   </header>
    
+<div id= "container1">
+    <div id="main1">
+        <header>
+                <h2>SELF MAKEUP CLASS</h2>
+          </header>     
+            <div id= "sub-main">
+                <div class= "media-body">
+                  <h4 class="layout-title"></h4>
+                <p class="layout-text">Everyone has the right to look beautiful. However, sometime even if you want to do your makeup
+                yourself, you over do it or there is something thats missing. Thats where we come in. We teach you the best of make up 
+                depending on your skin type and features. We make sure you look beautiful and be confident to do it yourself afterwards.
+                <br>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#mymodalSelf">Click here for Package and Pricing</button>
+                </p>
+                </div>
+                
+                
+                <div class="modal" id="mymodalSelf">
+            <div class ="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header modal-section-header">
+                      <h2 class="modal-title modal-section-title">Packages</h2>
+                   <button class = "close" type="button" data-dismiss="modal">x</button>  
+                    </div>
+                    <div class="model-body modal-section-text">
+                     <p>Highlights of 7 Days Class:</p>
+<p>1. Nude Makeup </p>
+<p>2. Casual Makeup & Highlighting </p>
+<p>3. Day Party Makeup</p>
+<p>4. Day Party Makeup and contouring</p>
+<p>5. Night Party Makeup (cut crease makeup)</p>
+<p>6. Light Smokey Eye Makeup </p>
+<p>7. Smokey Eye Makeup </p>
 
+<h3>Price and Duration:</h3>
+<p>Self makeup class 7000</p>
+<p>Course duration : 7 days </p>
+<p>Time: 2 hrs per day</p>
+                     
+                    </div>
+                  </div>
+                </div>  
+            </div>
+                
+                
+              </div>
+      </div>
+      </div>
+      
+      
     <footer>
       <div class="container">
         

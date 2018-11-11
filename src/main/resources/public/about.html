@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <title>Makeup Obsession</title>
     <meta charset="utf-8">
@@ -20,18 +20,67 @@
       <a class="navbar-brand" href="index.html"><i class="fas fa-cube"></i>The Makeup Obsession</a>
      <section class="collapse navbar-collapse" id="myTogglerNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="service.html" class="nav-link">Service</a></li>
+          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <!-- <li class="nav-item"><a href="service.html" class="nav-link">Service</a></li> -->
+          <li class="dropdown">
+          <a href=# class="dropdown-toggle text-light service" data-toggle="dropdown">Service <span class="caret"></span></a>
+         
+          <ul class="dropdown-menu sub-menu">
+            <li class="text-light"><a href="bride.html">Bride & Party Makeup </a><li>
+              <li class="text-light"><a href="model.html">Models Makeup </a></li>
+              <li class="text-light"><a href="professional.html">Professional Makeup</a></li>
+              <li class="text-light"><a href="self.html">Self Makeup</a></li>
+            </ul>
+          
+          </li>
           <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
-          <li class="nav-item"><a href="./gallery.html" class="nav-link">Gallery</a></li>
-          <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
         </ul>
     </section>
     </div>
   </nav>
   </header>
-  
-  
+   <div id= "container1">
+    <div id="main1">
+        <header>
+                <h2>THE MAKEUP OBSESSION</h2>
+          </header>     
+            <div id= "sub-main">
+                <div class= "media-body">
+                  <h4 class="layout-title"></h4>
+                <p class="layout-text">Established in 2015. The Makeup Obsession is a team of skilled, experienced and passionate makeup and hair stylists 
+                offering services in all areas of the industry. Providing stunning hair and long-lasting makeup looks for all occasions  
+                in our studio located in Pokhara. Since opening their official studio in 2016, 
+                The Makeup Obsession also offers Bridal Makeup, Makeup for Modals for Photoshoots and Professional/Self Makeup Classes.
+                </p>
+                </div>
+              </div>
+      </div>
+      
+      <div id="main1">
+        <header>
+                <h2>ARTIST</h2>
+          </header>     
+            <div id= "sub-main">
+            <img class="right" src = "images/artist_s.jpg"/>
+                <div class= "media-body">
+                  <h4 class="layout-title"></h4>
+                <p class="layout-text">
+               Hi !! Thank you for stopping by. I am Swiki Shrestha and i am a professional makeup artist, based in Nepal. My studio is located at Nadipur , Pokhara. I have been in this field since 2015. 
+               <br>
+My passion for makeup started since i have grown up seeing my mom doing her makeup. Her constant support and my passion for makeup helped me to follow my dream. Long way to go but i haven't stopped following my dream. 
+<br>
+For me, makeup is an art to express yourself. It helps to escalate your confidence and make you look presentable in front of many by not applying much on your face. It brings smile on my face when i make other feel beautiful. My desire is to help a woman's inner beauty shine on outside. For me my reward is an appreciation of my work by my clients. I believe in "Looking good is your best revenge. " 
+<br>
+I have been giving classes like self makeup class and professional makeup class throughout Nepal. And i also do bridal makeup, party makeup and editorial makeup. 
+<br>
+Last but not the least, there is a sexy glamourous woman in all of us, try to indulge it.
+                </p>
+                </div>
+              </div>
+      </div>
+      </div>
   
   <footer>
       <div class="container">
