@@ -81,9 +81,14 @@ body {
 
   .page-section-title{
     font-size: 3em;
-    font-family: var(--font-family-sans-serif);
+    /*font-family: var(--font-family-sans-serif);*/
+    font-family: 'Italianno', cursive;
     font-weight: 200;
     color: #FFF8DC;
+    border: 20px solid transparent;
+    padding: 5px;
+    border-style: none none solid none;
+    border-image: url("../images/frame_full.jpg") 30 round;
   }
 
   .modal-section-title{
@@ -165,6 +170,25 @@ body {
    margin-bottom: 50px;
    border-radius: 10px;
  }
+ 
+ #main1 h2{
+  font-size: 3em;
+  /*font-family: var(--font-family-sans-serif);*/
+  font-family: 'Italianno', cursive;
+  font-weight: 200;
+  color: #FFF8DC;
+  border: 20px solid transparent;
+  padding: 5px;
+  border-style: none none solid none;
+  border-image: url("../images/frame_main1.jpg") 30 round;
+ }
+ 
+#main1 .about-background{
+   background-image: url("../images/background.jpg");
+   background-position: center;
+   overflow: auto;
+   color: black;
+ }
 
  #gallery {
   background-color: #630620;
@@ -191,6 +215,11 @@ body {
    max-width:150px;
    border-radius: 50%;
  }
+ 
+ .right-about{
+  float: right;
+   max-width:150px;
+ } 
 
  p {
    line-height: 1.75;

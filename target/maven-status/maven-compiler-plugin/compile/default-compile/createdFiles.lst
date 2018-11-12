@@ -1,8 +1,12 @@
 swiki\mainapplication\service\CustomerService.class
 swiki\mainapplication\model\Customer.class
+swiki\mainapplication\repository\FutureDateRepository.class
 swiki\mainapplication\repository\SchedulerResource.class
 swiki\mainapplication\repository\SchedulerRepository.class
+swiki\mainapplication\model\FutureDate.class
+swiki\mainapplication\repository\FutureDateResource.class
 swiki\mainapplication\MakeupObsessionMain.class
+swiki\mainapplication\service\FutureDateService.class
 swiki\mainapplication\repository\CustomerRepository.class
 swiki\mainapplication\model\Scheduler.class
 swiki\mainapplication\repository\CustomerResource.class
